@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="imagenes/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Ejercicio_Quiniela</title>
+</head>
+
+<body>
+  <section class="main">
+    <form id="miformulario" class="formulario1" action="">
+      <div>
+        <button id="simple" class="opcion">Simple</button>
+        <button id="multiple" class="opcion">Multiple</button>
+        <label class="labelDoblesTriples dt" for="">Dobles: </label>
+        <input class="doblesTriples dt" type="text" name="" id="dobles" size="1" value="0">
+        <label class="labelDoblesTriples dt" for="">Triples: </label>
+        <input class="doblesTriples dt" type="text" name="" id="triples" size="1" value="0">
+      </div>
+      <fieldset id="fieldsetf1">
+        <div class="fila filaCabeza">
+          <label for="" name="">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="">Equipo B.............</label>
+          <div class="random-basura">
+            <input id="aleatorio1" class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input id="limpiar1" class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura random" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura relleno" type="button" name="btnNone" value=" ">
+            <input class="botonRandomBasura basura" type="button" name="btnNone" value=" ">
+          </div>
+        </div>
+        <div class="fila">
+          <label for="" name="a">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="b">Equipo B</label>
+          <div class="equipos">
+            <input class="simple botonQuiniela grupoA" type="button" value="1">
+            <input class="simple botonQuiniela grupoA" type="button" value="X">
+            <input class="simple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+          </div>
+        </div>
+        <div class="fila">
+          <label for="" name="a">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="b">Equipo B</label>
+          <div class="equipos">
+            <input class="simple botonQuiniela grupoA" type="button" value="1">
+            <input class="simple botonQuiniela grupoA" type="button" value="X">
+            <input class="simple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+            <input class="multiple botonQuiniela grupoA" type="button" value="1">
+            <input class="multiple botonQuiniela grupoA" type="button" value="X">
+            <input class="multiple botonQuiniela grupoA" type="button" value="2">
+            <input class="multiple botonQuiniela" type="button" value="1">
+            <input class="multiple botonQuiniela" type="button" value="X">
+            <input class="multiple botonQuiniela" type="button" value="2">
+          </div>
+          <div class="fila">
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label class="labelBloque"></label>
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label class="labelBloque"></label>
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label class="labelBloque"></label>
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label class="labelBloque"></label>
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+          </div>
+          <div class="fila">
+            <label for="" name="a">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="b">Equipo B</label>
+            <div class="equipos">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela grupoA" type="button" value="1">
+              <input class="botonQuiniela grupoA" type="button" value="X">
+              <input class="botonQuiniela grupoA" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="X">
+              <input class="botonQuiniela" type="button" value="2">
+            </div>
+            <div class="fila">
+              <label for="" name="a">Equipo A</label>
+              <label for="">-</label>
+              <label for="" name="b">Equipo B</label>
+              <div class="equipos">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+              </div>
+            </div>
+            <div class="fila">
+              <label for="" name="a">Equipo A</label>
+              <label for="">-</label>
+              <label for="" name="b">Equipo B</label>
+              <div class="equipos">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+              </div>
+            </div>
+            <div class="fila">
+              <label for="" name="a">Equipo A</label>
+              <label for="">-</label>
+              <label for="" name="b">Equipo B</label>
+              <div class="equipos">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+              </div>
+            </div>
+            <div class="fila">
+              <label for="" name="a">Equipo A</label>
+              <label for="">-</label>
+              <label for="" name="b">Equipo B</label>
+              <div class="equipos">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela grupoA" type="button" value="1">
+                <input class="botonQuiniela grupoA" type="button" value="X">
+                <input class="botonQuiniela grupoA" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="X">
+                <input class="botonQuiniela" type="button" value="2">
+                <label class="labelBloque"></label>
+              </div>
+            </div>
+            <div>
+              <label for="">Aciertos</label>
+              <label for=""></label>
+              <label for="">.......................</label>
+              <div class="Lresultado">
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+                <input class="resultado" type="button" value="0" disabled>
+              </div>
+            </div>
+            <div class="pleno">
+              <label for="" class="bloque">Pleno al 15</label>
+              <label id="plenoA" for="" class="bloque">Equipo A</label>
+              <div class="equipos">
+                <input class="botonQuiniela" type="button" value="0">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="M">
+              </div>
+              <label for="" id="plenoB" class="bloque">Equipo B</label>
+              <div class="equipos">
+                <input class="botonQuiniela" type="button" value="0">
+                <input class="botonQuiniela" type="button" value="1">
+                <input class="botonQuiniela" type="button" value="2">
+                <input class="botonQuiniela" type="button" value="M">
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <div class="flexibles">
+      <button id="mostrarGanadores" class="mostrarGanadores jugar">Jugar</button>
+      <button id="aleatorioAll" class="aleatorioAll"></button>
+      <button id="borrarAll" class="borrarAll"></button>
+    </div>
+
+    <button id="nueva" class="mostrarGanadores">Nueva Quiniela</button>
+  </section>
+  <section class="main2">
+    <form id="miformulario2" class="formulario2" action="">
+      <div>
+        <label for="" name="aR">Equipo A</label>
+        <label for="">-</label>
+        <label for="" name="bR">Equipo B</label>
+        <div class="equiposR">
+          <input id="1_1" class="botonQuiniela grupoA" name="G1" type="button" value="1">
+          <input id="1_X" class="botonQuiniela grupoA" name="G1" type="button" value="X">
+          <input id="1_2" class="botonQuiniela grupoA" name="G1" type="button" value="2">
+        </div>
+      </div>
+      <div>
+        <label for="" name="aR">Equipo A</label>
+        <label for="">-</label>
+        <label for="" name="bR">Equipo B</label>
+        <div class="equiposR">
+          <input id="2_1" class="botonQuiniela grupoA" name="G2" type="button" value="1">
+          <input id="2_X" class="botonQuiniela grupoA" name="G2" type="button" value="X">
+          <input id="2_2" class="botonQuiniela grupoA" name="G2" type="button" value="2">
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="3_1" class="botonQuiniela grupoA" name="G3" type="button" value="1">
+            <input id="3_X" class="botonQuiniela grupoA" name="G3" type="button" value="X">
+            <input id="3_2" class="botonQuiniela grupoA" name="G3" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="4_1" class="botonQuiniela grupoA" name="G4" type="button" value="1">
+            <input id="4_X" class="botonQuiniela grupoA" name="G4" type="button" value="X">
+            <input id="4_2" class="botonQuiniela grupoA" name="G4" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="5_1" class="botonQuiniela grupoA" name="G5" type="button" value="1">
+            <input id="5_X" class="botonQuiniela grupoA" name="G5" type="button" value="X">
+            <input id="5_2" class="botonQuiniela grupoA" name="G5" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="6_1" class="botonQuiniela grupoA" name="G6" type="button" value="1">
+            <input id="6_X" class="botonQuiniela grupoA" name="G6" type="button" value="X">
+            <input id="6_2" class="botonQuiniela grupoA" name="G6" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="7_1" class="botonQuiniela grupoA" name="G7" type="button" value="1">
+            <input id="7_X" class="botonQuiniela grupoA" name="G7" type="button" value="X">
+            <input id="7_2" class="botonQuiniela grupoA" name="G7" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="8_1" class="botonQuiniela grupoA" name="G8" type="button" value="1">
+            <input id="8_X" class="botonQuiniela grupoA" name="G8" type="button" value="X">
+            <input id="8_2" class="botonQuiniela grupoA" name="G8" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="9_1" class="botonQuiniela grupoA" name="G9" type="button" value="1">
+            <input id="9_X" class="botonQuiniela grupoA" name="G9" type="button" value="X">
+            <input id="9_2" class="botonQuiniela grupoA" name="G9" type="button" value="2">
+          </div>
+        </div>
+        <div>
+          <label for="" name="aR">Equipo A</label>
+          <label for="">-</label>
+          <label for="" name="bR">Equipo B</label>
+          <div class="equiposR">
+            <input id="10_1" class="botonQuiniela grupoA" name="G10" type="button" value="1">
+            <input id="10_X" class="botonQuiniela grupoA" name="G10" type="button" value="X">
+            <input id="10_2" class="botonQuiniela grupoA" name="G10" type="button" value="2">
+          </div>
+          <div>
+            <label for="" name="aR">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="bR">Equipo B</label>
+            <div class="equiposR">
+              <input id="11_1" class="botonQuiniela grupoA" name="G11" type="button" value="1">
+              <input id="11_X" class="botonQuiniela grupoA" name="G11" type="button" value="X">
+              <input id="11_2" class="botonQuiniela grupoA" name="G11" type="button" value="2">
+            </div>
+          </div>
+          <div>
+            <label for="" name="aR">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="bR">Equipo B</label>
+            <div class="equiposR">
+              <input id="12_1" class="botonQuiniela grupoA" name="G12" type="button" value="1">
+              <input id="12_X" class="botonQuiniela grupoA" name="G12" type="button" value="X">
+              <input id="12_2" class="botonQuiniela grupoA" name="G12" type="button" value="2">
+            </div>
+          </div>
+          <div>
+            <label for="" name="aR">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="bR">Equipo B</label>
+            <div class="equiposR">
+              <input id="13_1" class="botonQuiniela grupoA" name="G13" type="button" value="1">
+              <input id="13_X" class="botonQuiniela grupoA" name="G13" type="button" value="X">
+              <input id="13_2" class="botonQuiniela grupoA" name="G13" type="button" value="2">
+            </div>
+          </div>
+          <div>
+            <label for="" name="aR">Equipo A</label>
+            <label for="">-</label>
+            <label for="" name="bR">Equipo B</label>
+            <div class="equiposR">
+              <input id="14_1" class="botonQuiniela grupoA" name="G14" type="button" value="1">
+              <input id="14_X" class="botonQuiniela grupoA" name="G14" type="button" value="X">
+              <input id="14_2" class="botonQuiniela grupoA" name="G14" type="button" value="2">
+              <label class="labelBloque2"></label>
+            </div>
+          </div>
+          <div class="pleno">
+            <label for="" class="bloque">Pleno al 15</label>
+            <label id="plenoAR" for="" class="bloque">Equipo A</label>
+            <div class="equiposR">
+              <input class="botonQuiniela" type="button" value="0">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="M">
+            </div>
+            <label for="" id="plenoBR" class="bloque">Equipo B</label>
+            <div class="equiposR">
+              <input class="botonQuiniela" type="button" value="0">
+              <input class="botonQuiniela" type="button" value="1">
+              <input class="botonQuiniela" type="button" value="2">
+              <input class="botonQuiniela" type="button" value="M">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="ocultarGanadores" class="ocultarGanadores">Ocultar Ganadores</button>
+      <button id="guardarResultados" class="ocultarGanadores">Guardar Resultados</button>
+      <button id="recuperarResultados" class="ocultarGanadores">Recuperar Resultados</button>
+    </form>
+  </section>
+  <script src="./js/javascript.js"></script>
+</body>
+
+</html>

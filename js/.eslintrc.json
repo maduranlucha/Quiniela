@@ -1,0 +1,51 @@
+{ 
+  //Version : 201710082348
+  /*De forma predeterminada, ESLint buscará archivos de configuración en todas las carpetas principales hasta el directorio raíz. Esto puede ser útil si desea que todos sus proyectos sigan una cierta convención, pero a veces pueden dar lugar a resultados inesperados. Para limitar ESLint a un proyecto específico, establezca esto en `true` en una configuración en la raíz de su proyecto.*/
+  /*Con root:true, una vez que encuentre un archivo de configuracion con esta opcion
+  dejara de buscar otros en archivos de configuracion, lo utilizaremos para evitar comportamientos inesperados
+  ya que si deshabilitamos una opcion pero en una carpeta padre hay otro archivo de configuracion puede leer 
+  la opcion de ese archivo y aplicarla.*/
+  "root": true, 
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  // "extends": "eslint:recommended",
+  "rules": {
+    //ES6//
+    "arrow-parens": "warn",
+    "no-var": "warn",
+    "no-const-assign": "error",
+    //GENERAL//
+    "no-eval": "error",
+    "no-mixed-spaces-and-tabs": "warn",
+    "no-tabs": "warn",
+    "no-undef": "error",
+    "no-console": "off",
+    "no-cond-assign": "error",
+    "no-dupe-args": "error",
+    "no-extra-semi": "error",
+    "no-unused-vars":"warn",
+    "prefer-template":"warn",
+    "camelcase": "warn",
+    "use-isnan": "error",
+    "valid-typeof": "error",
+    "strict": "warn",
+    "curly": "error",
+    "eqeqeq": "warn",
+    "indent": ["warn", 2],
+    "semi": ["error", "always"],
+    //MULTIPLES OPCIONES
+    "no-multiple-empty-lines": ["warn", {
+        "max": 1,
+        "maxEOF":1,
+        "maxBOF":1
+    }]
+
+    // "linebreak-style": ["error","windows"]
+    // "quotes": ["error","double"]
+  }
+}
+
+
+
